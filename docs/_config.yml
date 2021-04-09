@@ -37,6 +37,7 @@ theme_config:
   show_description: false # show blog description in home page
 plugins:
   - jekyll-feed
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
