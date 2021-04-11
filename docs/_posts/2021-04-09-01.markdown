@@ -1,0 +1,10 @@
+---
+layout: post
+title: "2021-04-09"
+date: 2021-04-09
+---
+![soc](assets/images/190111_01.scd.wav_spectrogram.png)
+
+{% highlight supercollider %}
+{SinGrain.ar(Impulse.ar(XLine.ar(10, 0.1, 20)), 0.01, 10000)}
+{% endhighlight %}

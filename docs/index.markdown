@@ -4,3 +4,9 @@
 
 layout: home
 ---
+celebrating the beauty of textual descriptions of sound morphologies
+
+-
+or an exercise in breaking intended use.
+
+[why?](about)

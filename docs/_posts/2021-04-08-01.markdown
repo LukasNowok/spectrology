@@ -1,0 +1,10 @@
+---
+layout: post
+title: "2021-04-08"
+date: 2021-04-08
+---
+![soc](assets/images/190119_03.scd.wav_spectrogram.png)
+
+{% highlight supercollider %}
+{SinOsc.ar(1000 + LFSaw.ar(LFSaw.ar(Array.geom(4, 0.1, 1.5), mul: 5000), mul:500)).sum * 4.reciprocal}
+{% endhighlight %}

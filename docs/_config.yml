@@ -25,11 +25,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
-github_username:  
+github_username:
+imagesurl: "/assets/images/"
 
 # Build settings
 # theme: minima
-remote_theme: riggraz/no-style-please 
+remote_theme: riggraz/no-style-please
 theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout

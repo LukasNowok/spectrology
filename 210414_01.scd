@@ -1,0 +1,1 @@
+{Saw.ar(SinOsc.ar(5.reciprocal, Array.series(10, 0, 2pi/10)).range(100,1500)).sum * 5.reciprocal}

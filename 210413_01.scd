@@ -1,0 +1,1 @@
+{SinGrain.ar(Impulse.ar(SinOsc.ar(6.reciprocal).range(8, 4000)), 0.005, 10000)}

@@ -1,0 +1,1 @@
+{Wrap.ar(SinOsc.ar(SinOsc.ar(40.reciprocal)*100+20000), XLine.ar(-1.0, -0.01, 20), 1)}

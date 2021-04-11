@@ -1,0 +1,1 @@
+{SinGrain.ar(Impulse.ar(XLine.ar(10, 0.1, 20)), 0.01, 10000)}

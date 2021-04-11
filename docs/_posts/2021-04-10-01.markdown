@@ -1,0 +1,12 @@
+---
+layout: post
+title: "2021-04-10"
+date: 2021-04-10
+---
+![soc](assets/images/210410_01.scd.wav_spectrogram.png)
+
+{% highlight supercollider %}
+{
+	RHPF.ar(WhiteNoise.ar * EnvGen.ar(Env([0,1,1,0], [0, 0.01, 0]), Impulse.ar(7)), 800, 0.05) + SinOsc.ar(6400, 0, 0.2);
+}
+{% endhighlight %}
