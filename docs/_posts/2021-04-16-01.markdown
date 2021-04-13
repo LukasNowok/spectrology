@@ -1,0 +1,13 @@
+---
+layout: post
+title: "2021-04-16"
+date: 2021-04-16
+---
+![soc](assets/images/210416_01.scd.wav_spectrogram.png)
+
+{% highlight supercollider %}
+{
+	var trig = Impulse.ar(XLine.ar(1, 1000, 20));
+	Saw.ar(TRand.ar(50, XLine.ar(50,5000,20), trig)) * EnvGen.ar(Env.perc(0,0.1), trig);
+}
+{% endhighlight %}
