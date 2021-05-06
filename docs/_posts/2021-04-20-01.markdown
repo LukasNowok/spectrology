@@ -1,0 +1,10 @@
+---
+layout: post
+title: "2021-04-20"
+date: 2021-04-20
+---
+![soc](assets/images/210420_01.scd.wav_spectrogram.png)
+
+{% highlight supercollider %}
+{LFTri.ar(EnvGen.ar(Env([0,0,22000,0],[7,1,0]),1))}
+{% endhighlight %}
