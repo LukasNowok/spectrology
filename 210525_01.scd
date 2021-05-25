@@ -1,0 +1,1 @@
+{IFFT(PV_BinScramble(FFT(LocalBuf(4096),SinOsc.ar(Array.series(20,100, 900),mul:0.1).sum),Line.ar(dur:20),0.8,Impulse.ar(0.25)))}
